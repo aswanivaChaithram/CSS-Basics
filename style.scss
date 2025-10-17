@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+.light-theme {
+    //Light theme variables
+    $bg-color: #fff;
+    $text-color: #000;
+
+    background-color: $bg-color;
+    color: $text-color;
+}
+
+.dark-theme {
+    //Dark theme variables
+    $bg-color: #000;
+    $text-color: #fff;
+
+    background-color: $bg-color;
+    color: $text-color;
+}
